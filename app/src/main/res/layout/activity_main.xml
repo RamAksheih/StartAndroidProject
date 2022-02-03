@@ -1,0 +1,131 @@
+git<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="486dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:width="126dp"
+        android:height="26dp"
+        android:text="Авторизация"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="normal"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="36dp"
+        android:text="Укажите свой телефоный номер,\n чтобы сделать заказ"
+        app:layout_constraintHorizontal_bias="0.1"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        android:lineHeight="20dp"
+        android:width="350dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="315dp"
+        android:width="300dp"
+        android:height="200dp"
+        android:background="@drawable/backfortext"
+        android:inputType="phone"
+        android:paddingLeft="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="+8 800 2222 600"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="НАЧАТЬ"
+        android:background="@drawable/drwabletobutton"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="486dp"
+        android:layout_marginBottom="68dp"
+
+        android:width="220dp"
+        android:height="86dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="73dp"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginBottom="68dp"
+        android:layout_marginTop="15dp"
+
+        android:text="Пропустить"
+        android:textColor="#DE6758"
+        android:textSize="15dp"
+
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        android:layout_marginBottom="23dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="26dp"
+
+
+        android:text="@string/Useragreement"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
